@@ -31,4 +31,8 @@ export const GlobalStyles = createGlobalStyle`
     font-weight: 900;
     font-family:  ${({ theme }) => theme.fonts.family.title};
   }
+  .table {
+    width: 100%;
+    overflow-y: auto;
+  }
 `;

@@ -20,6 +20,7 @@ export const Container = styled.section`
 `;
 export const TextContainer = styled.div`
   ${({ theme }) => css`
+    width: 100%;
     @media ${theme.media.lteMedium} {
       margin-bottom: ${theme.spacings.large};
     }
@@ -29,5 +30,12 @@ export const ImgContainer = styled.div`
   ${() => css``}
 `;
 export const Img = styled.img`
-  ${() => css``}
+  ${({ theme }) => css`
+    position: relative;
+    left: 15rem;
+    width: 75%;
+    @media ${theme.media.lteMedium} {
+      left: 0;
+    }
+  `}
 `;

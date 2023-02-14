@@ -4,9 +4,9 @@ import { SectionBackground } from '../SectionBackground';
 import { Heading } from '../../components/Heading';
 import { TextComponent } from '../../components/TextComponent';
 
-export const GridGallery = ({ title, description, grid, background = false }) => {
+export const GridGallery = ({ title, description, grid, background = false, sectionId = '' }) => {
   return (
-    <SectionBackground background={background}>
+    <SectionBackground background={background} sectionId={sectionId}>
       <Styled.Container>
         <Heading uppercase colorDark={!background} as="h2">
           {title}
@@ -29,9 +29,10 @@ GridGallery.propTypes = {
   description: P.string.isRequired,
   grid: P.arrayOf(
     P.shape({
-      altText: P.string.isRequired,
+      altText: P.string,
       imgUrl: P.string.isRequired,
     }),
   ).isRequired,
   background: P.bool,
+  sectionId: P.string,
 };

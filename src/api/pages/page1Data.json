@@ -1,89 +1,153 @@
 {
-  "data": {
-    "id": 1,
-    "attributes": {
-      "title": "Olha a minha pagina",
-      "slug": "olha-a-minha-pagina",
-      "createdAt": "2023-02-07T12:28:31.438Z",
-      "updatedAt": "2023-02-07T13:30:59.477Z",
-      "publishedAt": "2023-02-07T12:28:54.202Z",
-      "footer_text": "<p><a href=\"https://github.com/Brunoaleht\">Feito com ❤ por Bruno Alexandre</a></p>",
-      "menu": {
-        "open_in_new_tab": false,
-        "id": 1,
-        "logo_link": "#home",
-        "logo_text": "Logo",
-        "logo": { "data": null },
-        "menu_links": [
-          { "id": 1, "link_text": "intro", "url": "#intro", "open_in_new_tab": false },
-          { "id": 2, "link_text": "grid-one", "url": "#grid-one", "open_in_new_tab": false }
-        ]
-      },
-      "sections": [
-        {
+  "data": [
+    {
+      "id": 1,
+      "attributes": {
+        "title": "my page",
+        "slug": "my-page",
+        "createdAt": "2023-02-14T13:32:09.152Z",
+        "updatedAt": "2023-02-14T16:32:59.463Z",
+        "publishedAt": "2023-02-14T16:32:59.259Z",
+        "footer_text": "\n```\n<p><a href=\\\"https://github.com/Brunoaleht\\\">Feito com ❤ por Bruno Alexandre</a></p>\n```",
+        "menu": {
           "id": 1,
-          "__component": "section.section-tow-columns",
-          "title": "JANUARY BRINGS US FIREFOX 85",
-          "description": "To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox.",
-          "image": {
-            "data": {
-              "id": 2,
-              "attributes": {
-                "name": "javascript.svg",
-                "alternativeText": null,
-                "caption": null,
-                "width": 1030,
-                "height": 730,
-                "formats": null,
-                "hash": "javascript_cf7038ccd6",
-                "ext": ".svg",
-                "mime": "image/svg+xml",
-                "size": 30.31,
-                "url": "https://res.cloudinary.com/dxldesniw/image/upload/v1675772942/javascript_cf7038ccd6.svg",
-                "previewUrl": null,
-                "provider": "cloudinary",
-                "provider_metadata": { "public_id": "javascript_cf7038ccd6", "resource_type": "image" },
-                "createdAt": "2023-02-07T12:24:18.923Z",
-                "updatedAt": "2023-02-07T12:24:18.923Z"
+          "logo_link": "#home",
+          "logo_text": "MY PAGE",
+          "logo": { "data": null },
+          "menu_links": [
+            { "id": 3, "link_text": "About", "url": "#about", "open_in_new_tab": false },
+            { "id": 1, "link_text": "Skills", "url": "#skills", "open_in_new_tab": false },
+            { "id": 2, "link_text": "Projects", "url": "#projects", "open_in_new_tab": false },
+            { "id": 4, "link_text": "Studying", "url": "#studying", "open_in_new_tab": false }
+          ]
+        },
+        "sections": [
+          {
+            "id": 1,
+            "__component": "sections.section-two-columns",
+            "title": "Hallo, I am Bruno Alexandre",
+            "description": "I'm 25 years old, I'm from Brazil ,I'm FrontEnd expert develop, Be Welcome!",
+            "image": {
+              "data": {
+                "id": 14,
+                "attributes": {
+                  "name": "I-am.png",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 460,
+                  "height": 460,
+                  "formats": {
+                    "thumbnail": {
+                      "ext": ".png",
+                      "url": "/uploads/thumbnail_I_am1_a5a0b86589.png",
+                      "hash": "thumbnail_I_am1_a5a0b86589",
+                      "mime": "image/png",
+                      "name": "thumbnail_I-am1.png",
+                      "path": null,
+                      "size": 59.61,
+                      "width": 156,
+                      "height": 156
+                    }
+                  },
+                  "hash": "I_am1_a5a0b86589",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "size": 117.14,
+                  "url": "/uploads/I_am1_a5a0b86589.png",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "createdAt": "2023-02-14T16:07:57.200Z",
+                  "updatedAt": "2023-02-14T16:09:26.222Z"
+                }
               }
-            }
+            },
+            "metadata": { "id": 1, "name": "home", "section_id": "home", "background": true }
           },
-          "metadata": { "id": 1, "name": "home", "section_id": "home", "background": true }
-        },
-        {
-          "id": 1,
-          "__component": "section.section-content",
-          "title": "NEWS COVERAGE AND SOME SURPRISES",
-          "content": "The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.\n\nWe’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.\n\nWe’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur, and discuss various updater problems we had to deal with. We’ll conclude with the release and an overview of various other improvements that are in the pipeline.",
-          "metadata": { "id": 2, "name": "intro", "section_id": "intro", "background": false }
-        },
-        {
-          "id": 1,
-          "__component": "section.section-grid",
-          "title": "MY GRID",
-          "description": "Uma breve descrição.",
-          "text_grid": [
-            {
-              "id": 1,
-              "title": "Teste 1",
-              "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
-            },
-            {
-              "id": 2,
-              "title": "Teste 2",
-              "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
-            },
-            {
-              "id": 3,
-              "title": "Teste 3",
-              "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores."
-            }
-          ],
-          "image_grid": [],
-          "metadata": { "id": 3, "name": "grid-one", "section_id": "grid-one", "background": true }
-        }
-      ]
+          {
+            "id": 1,
+            "__component": "sections.section-content",
+            "title": "About Me",
+            "content": "Web Developer 3 years of Front-end experience , and\nBackground performance. Extensive knowledge in website development,\nmarketplace and creating APIs.\n\nWorking in Front-End, working with language\ndirected at the object. Creating interactive visual concepts with the customer, \nusing as main VueJs tools, ReactJs, NextJs ,\nHTML5, CSS3 and JavaScript applied\nto EcmaScript 6+\n\nGraduated in Bachelor of Mechanical Engineering, and \nmy main languages spoken German, English and Portuguese as mother tongue",
+            "metadata": { "id": 2, "name": "about", "section_id": "about", "background": false }
+          },
+          {
+            "id": 1,
+            "__component": "sections.section-grid",
+            "title": "Main skills:",
+            "description": "These are my best skills",
+            "text_grid": [
+              {
+                "id": 2,
+                "title": "HTML",
+                "description": "I have been studying and applying for 5 years, I have several projects that use html text tags"
+              },
+              {
+                "id": 1,
+                "title": "NextJs",
+                "description": "When I started studying react, I fell in love with the componentization style and functional programming, with the evolution of the library, came the construction of the framework and with that I deepened my studies on it"
+              },
+              {
+                "id": 3,
+                "title": "CSS",
+                "description": "I started my studies 4 years ago, but I could only delve deeper in this last year, using the styled-component, which allows me to use JavaScript in the creation of my css templates"
+              },
+              {
+                "id": 4,
+                "title": "JavaScript",
+                "description": "It was the first programming language I came in contact with, from the beginning I saw its great potential, I gradually consolidated my experience with legacy projects, using JQuery, WebPack and Bootstrap 4, and perfected the use of its FrameWork."
+              },
+              {
+                "id": 5,
+                "title": "VueJs",
+                "description": "I started my studies with VueJs about one year ago, I've been developing increasingly complex applications from the same"
+              },
+              {
+                "id": 6,
+                "title": "NodeJs",
+                "description": "My studies with node, was initially to be able to create my own Apis, which I was able to deepen with studies of MySqL, Postgres and MongoDb"
+              }
+            ],
+            "image_grid": [],
+            "metadata": { "id": 3, "name": "skills", "section_id": "skills", "background": true }
+          },
+          {
+            "id": 2,
+            "__component": "sections.section-grid",
+            "title": "Projects Example",
+            "description": "Some pictures of my recent projects",
+            "text_grid": [],
+            "image_grid": [{ "id": 1 }],
+            "metadata": { "id": 4, "name": "projects", "section_id": "projects", "background": false }
+          },
+          {
+            "id": 3,
+            "__component": "sections.section-grid",
+            "title": "Studying",
+            "description": "Some tools In consolidating knowledge at the moment",
+            "text_grid": [
+              {
+                "id": 7,
+                "title": "TypeScript",
+                "description": "I've just started learning, I've already worked with propTypes, and I'm updating them with TypeScript"
+              },
+              {
+                "id": 8,
+                "title": "NestJs",
+                "description": "It's a Framework for Node js, I started studying it recently, it's super interesting and I already see great potential"
+              },
+              {
+                "id": 9,
+                "title": "Python",
+                "description": "I started studying python to be able to develop my knowledge in data science, in addition to being able to work with a language linked to the object, I'm really enjoying it"
+              }
+            ],
+            "image_grid": [],
+            "metadata": { "id": 5, "name": "studying", "section_id": "studying", "background": false }
+          }
+        ]
+      }
     }
-  },
-  "meta": {}
+  ],
+  "meta": { "pagination": { "page": 1, "pageSize": 25, "pageCount": 1, "total": 1 } }
 }

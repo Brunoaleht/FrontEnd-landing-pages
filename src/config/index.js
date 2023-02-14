@@ -1,5 +1,5 @@
 export default {
-  url: 'http://localhost:1337/api/pages/?slug=',
+  url: 'http://localhost:1337/api/pages/?filters[slug]',
   siteName: 'Bruno Alexandre',
-  defaultSlug: 'landing-page',
+  defaultSlug: 'olha-a-minha-pagina',
 };

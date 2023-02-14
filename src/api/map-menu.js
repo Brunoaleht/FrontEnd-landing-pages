@@ -14,7 +14,7 @@ export const mapMenu = (menu = {}) => {
 
 export const mapMenuLinks = (links = []) => {
   return links.map((item) => {
-    const { open_in_new_tab: newTab = false, text_link: children = '', url: link = '' } = item;
+    const { open_in_new_tab: newTab = false, link_text: children = '', url: link = '' } = item;
 
     return {
       newTab,
