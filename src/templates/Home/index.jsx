@@ -24,7 +24,7 @@ export const Home = () => {
     const loading = async () => {
       try {
         const data = await fetch(
-          `http://localhost:1337/api/pages/?filters[slug]=${slug}&populate[menu][populate]=*&populate[sections][populate]=*`,
+          `https://strapi-landing-pages-yiw6.onrender.com/api/pages/?filters[slug]=${slug}&populate[menu][populate]=*&populate[sections][populate]=*`,
         );
         const json = await data.json();
         const { attributes } = json.data[0];
